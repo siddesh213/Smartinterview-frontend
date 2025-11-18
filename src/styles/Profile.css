@@ -1,0 +1,28 @@
+.profile-container {
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: calc(100vh - 60px);
+}
+
+.profile-container h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.profile-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+.profile-card p {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.profile-card strong {
+  color: #667eea;
+}

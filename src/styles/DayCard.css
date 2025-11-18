@@ -1,0 +1,52 @@
+.day-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.topic-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.topic-label {
+  font-weight: 600;
+  color: #444;
+}
+
+.topic-value {
+  color: #222;
+}
+
+
+.day-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.day-card.completed {
+  background: #2ecc71;
+  color: white;
+  border-color: #27ae60;
+}
+
+.day-number {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.day-status {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.day-card.completed .day-status {
+  color: white;
+}

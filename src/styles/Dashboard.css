@@ -1,0 +1,42 @@
+.dashboard-container {
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: calc(100vh - 60px);
+}
+
+.dashboard-container h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.dashboard-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.summary-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.summary-card h3 {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.summary-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+}

@@ -1,0 +1,60 @@
+.user-type-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.user-type-container h2 {
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.type-options {
+  display: flex;
+  gap: 2rem;
+}
+
+.type-btn {
+  padding: 2rem 3rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.type-btn.student {
+  background: #3498db;
+  color: white;
+}
+
+.type-btn.professional {
+  background: #e74c3c;
+  color: white;
+}
+
+.type-btn:hover {
+  transform: scale(1.05);
+}
+
+.type-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .type-options {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .type-btn {
+    width: 100%;
+  }
+}

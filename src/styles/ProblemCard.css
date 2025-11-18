@@ -1,0 +1,55 @@
+.problem-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.problem-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.problem-card h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.problem-card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.problem-meta {
+  display: flex;
+  gap: 1rem;
+}
+
+.difficulty {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.difficulty.easy {
+  background: #d4edda;
+  color: #155724;
+}
+
+.difficulty.medium {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.difficulty.hard {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.topic {
+  color: #667eea;
+  font-size: 0.9rem;
+}

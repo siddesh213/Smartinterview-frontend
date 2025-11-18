@@ -1,0 +1,23 @@
+.topic-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.topic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.topic-card h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.topic-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
