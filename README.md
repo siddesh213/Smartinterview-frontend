@@ -19,3 +19,4 @@ Users get a daily study plan based on their interview date and experience level 
 1. Clone the repository:
 ```sh
 git clone https://github.com/siddesh213/Smartinterview-frontend.git
+2.Navigate to the project directory:
